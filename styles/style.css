@@ -1,0 +1,31 @@
+:root {
+    --black-700: #000;
+    --secondary: #FA8305;
+    --blueGradiant: #3B2A9F;
+    --box_bg: #1C140F;
+    --primary-100: #5141AA;
+}
+/* background-color: var(--black-700); */
+
+@font-face {
+    font-family: Popins;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+}
+
+body{
+    background-color: var(--blueGradiant);
+    font-family: Popins;
+}
+
+body a{
+    color: white;
+    text-decoration: none;
+}
+
+.bg-orange{
+    background-color: #FA8305;
+}
+
+.text-orange{
+    color: #FA8305;
+}
