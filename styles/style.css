@@ -11,7 +11,11 @@
     font-family: Popins;
     src: url(../assets/fonts/Poppins-Light.ttf);
 }
-
+@font-face {
+    font-family: Rubik;
+    src: url(../assets/fonts/Rubik-VariableFont_wght.ttf);
+}
+/* --  general css  --  */
 body{
     background-color: var(--blueGradiant);
     font-family: Popins;
@@ -22,10 +26,136 @@ body a{
     text-decoration: none;
 }
 
+.trendingGames{
+    font-family: Rubik;
+}
+
+.projectSeeAll{
+    font-family: Rubik;
+}
+
+/*  --  my fake custoum BootStrap  --  */
+
 .bg-orange{
     background-color: #FA8305;
 }
 
+.bg-purple{
+    background-color: #5141AA;
+}
+
 .text-orange{
     color: #FA8305;
+}
+
+/* --  ((@media screen)) for differents tools  --  */
+
+/* mobile */
+@media screen  and (max-width: 768px){
+    /* custoum BootStrap in xs(mobile) */
+    .text-xs-center{
+        text-align: center;
+    }
+    .container-xs-fluid{
+        padding: 0 0;
+    }
+    /* other css */
+    .proved{
+        text-align: center;
+    }
+
+    .trendingGames{
+        margin-top: 10vh;
+    }
+
+    .trendingGames-imgDivs{
+        height: 30vh;
+    }
+
+    .trendingGames-allImgDivs{
+        padding:0 10%;
+    }
+
+    .spiderMan{
+        height: 25vh;
+    }
+
+    .recentProjects{
+        margin-top: 20%;
+    }
+
+    .projectImgDivs{
+        height: 40vh;
+    }
+
+    .projectSeeAll{
+        margin-top: 11.5%;
+    }
+
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .proved{
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .trendingGames{
+        margin-top: 15vh;
+    }
+
+    .trendingGames-imgDivs{
+        height: 35vh;
+    }
+
+    .spiderMan{
+        height: 60vh;
+    }
+
+    .recentProjects{
+        margin-top: 15%;
+    }
+
+    .projectImgDivs{
+        height: 30vh;
+    }
+
+    .projectSeeAll{
+        margin-top: 9.5%;
+    }
+}
+/* pc */
+@media screen  and (min-width: 992px){
+    .proved{
+        order: 0;
+    }
+
+    .provedImg{
+        order: 1;
+        height: 85vh;
+    }
+
+    .trendingGames{
+        margin-top: 20vh;
+    }
+
+    .trendingGames-imgDivs{
+        height: 40vh;
+    }
+
+    .spiderMan{
+        height: 70vh;
+    }
+
+    .recentProjects{
+        margin-top: 12.5%;
+    }
+
+    .projectImgDivs{
+        height: 35vh;
+    }
+
+    .projectSeeAll{
+        margin-top: 8.5%;
+    }
 }
