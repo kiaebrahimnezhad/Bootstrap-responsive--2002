@@ -145,6 +145,15 @@ footer{
         margin-top: 8.5vh;
     }
 
+    .myNav{
+        position: relative;
+    }
+
+    .myButton{
+        position: absolute;
+        right: 10%;
+    }
+
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -187,6 +196,16 @@ footer{
 
     .appIcons{
         width: 25%;
+    }
+
+    .myNav{
+        position: relative;
+        padding-top: 10%;
+    }
+
+    .myButton{
+        position: absolute;
+        right: 10%;
     }
 }
 /* pc */
